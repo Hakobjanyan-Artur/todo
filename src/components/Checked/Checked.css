@@ -1,0 +1,24 @@
+.checked {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 30px;
+}
+.checked button {
+    width: 100px;
+    height: 30px;
+    background: #222224;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .6s;
+}
+.checked button:hover {
+    background: #fff;
+    color: #222224;
+    border: 1px solid #222224;
+}

@@ -1,0 +1,23 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpus {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.corpus .del {
+    color: red;
+    cursor: pointer;
+}
+.edit-txt {
+    color: red;
+    cursor: pointer;
+}
+.filter, .del-check{
+    cursor: pointer;
+}
